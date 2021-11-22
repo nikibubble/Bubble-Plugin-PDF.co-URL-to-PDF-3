@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical",
+        "2": "data (things)"
+    },
+    "description": "Convert input URL into high quality PDF.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1615538876501x750034682552039700/pdf-co-icon-72.png",
+    "license": "open_source",
+    "link": "https://apidocs.pdf.co/24-pdf-from-url-url-to-pdf",
+    "name": "PDF.co URL to PDF",
+    "plugin_instructions": "Go to pdf.co, register for an account, select a credit package, get your api key and plug it in. You're all set"
+}

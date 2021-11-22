@@ -1,0 +1,41 @@
+{
+    "calls": {
+        "AAC": {
+            "body": "{\n\t\"url\" : \"<url>\",\n    \"profiles\": \"<profiles>\"\n}",
+            "body_params": {
+                "AAG": {
+                    "doc": "URL of the source website page. Must be a String",
+                    "key": "url",
+                    "private": true,
+                    "value": "https://en.wikipedia.org/wiki/Main_Page"
+                },
+                "AAH": {
+                    "allow_blank": true,
+                    "doc": "optional. set custom configuration (profile) that will adjust conversion properties. Check https://apidocs.pdf.co/kb for the collection of profile samples. ",
+                    "key": "profiles",
+                    "private": true,
+                    "value": "{}"
+                }
+            },
+            "doc_link": "https://apidocs.pdf.co/24-pdf-from-url-url-to-pdf",
+            "initialized": true,
+            "method": "post",
+            "name": "URL to PDF",
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1615538736010x190496958432149500.plugin_api.AAC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"URL to PDF\",\"fields\":{\"_p_url\":{\"ret_value\":\"text\",\"caption\":\"url\",\"sample_value\":\"https://pdf-temp-files.s3.amazonaws.com/d51bdda87e0346bf9ec065f9794d0e88/Main_Page.pdf\",\"path\":[\"url\"]},\"_p_pageCount\":{\"ret_value\":\"number\",\"caption\":\"pageCount\",\"sample_value\":3,\"path\":[\"pageCount\"]},\"_p_error\":{\"ret_value\":\"boolean\",\"caption\":\"error\",\"sample_value\":false,\"path\":[\"error\"]},\"_p_status\":{\"ret_value\":\"number\",\"caption\":\"status\",\"sample_value\":200,\"path\":[\"status\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Main_Page.pdf\",\"path\":[\"name\"]},\"_p_remainingCredits\":{\"ret_value\":\"number\",\"caption\":\"remainingCredits\",\"sample_value\":89508,\"path\":[\"remainingCredits\"]},\"_p_credits\":{\"ret_value\":\"number\",\"caption\":\"credits\",\"sample_value\":9,\"path\":[\"credits\"]}}}}",
+            "url": "https://api.pdf.co/v1/pdf/convert/from/url"
+        }
+    },
+    "human": "PDF.co",
+    "shared_headers": {
+        "AAD": {
+            "doc": "insert your PDF.co api key here. Api key you can get on https://app.pdf.co/",
+            "key": "x-api-key",
+            "private": true,
+            "visibility": "secret"
+        }
+    }
+}
